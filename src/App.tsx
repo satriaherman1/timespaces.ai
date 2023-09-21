@@ -81,7 +81,8 @@ function App() {
           color="white"
           textTransform="uppercase"
           w="full"
-          mt="16vh"
+          pos="fixed"
+          bottom="2vh"
         >
           Continue
         </Box>
