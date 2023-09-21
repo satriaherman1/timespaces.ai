@@ -14,21 +14,23 @@ import CustomSlider from "./components/commons/GradientSlider";
 function App() {
   return (
     <ChakraProvider>
-      <Container maxW="400px">
-        <Flex
-          padding="20px"
-          justifyContent="space-between"
-          alignItems="center"
-          w="100%"
-          background="white"
-          boxShadow="0px 6px 16px 0px rgba(79, 79, 79, 0.10)"
-        >
-          <ArrowBackIcon />
-          <Flex>
-            <Image src="/logo.svg" width="150px" />
-          </Flex>
-          <Box></Box>
+      <Container
+        display="flex"
+        maxW="400px"
+        padding="20px"
+        justifyContent="space-between"
+        alignItems="center"
+        w="100%"
+        background="white"
+        boxShadow="0px 6px 16px 0px rgba(79, 79, 79, 0.10)"
+      >
+        <ArrowBackIcon />
+        <Flex>
+          <Image src="/logo.svg" width="150px" />
         </Flex>
+        <Box></Box>
+      </Container>
+      <Container maxW="400px">
         <Box mt="20px">
           <Text fontSize="20px" fontWeight="700">
             Acquire
