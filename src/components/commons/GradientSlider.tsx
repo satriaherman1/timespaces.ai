@@ -18,7 +18,7 @@ const CustomSlider = (props: SliderProps) => {
 
   const formatService = new FormatService();
 
-  const handleSliderChange = (value) => {
+  const handleSliderChange = (value: number) => {
     setSliderValue(value);
     const start = 11000;
     const difference = 14500 - start;
