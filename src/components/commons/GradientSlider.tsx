@@ -37,7 +37,7 @@ const CustomSlider = (props: SliderProps) => {
       case exactValue > (difference * 50) / 100 &&
         exactValue <= (difference * 75) / 100:
         setTooltipBg("linear-gradient(90deg, #F3EC4C, #38DE78)");
-        setArrowBg("#90ed05");
+        setArrowBg("#56ed05");
 
         break;
       case exactValue > (difference * 75) / 100:

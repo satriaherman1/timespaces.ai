@@ -80,8 +80,10 @@ function App() {
           bg="black"
           color="white"
           textTransform="uppercase"
-          w="full"
+          w="calc(100% - 20px)"
           pos="fixed"
+          left="50%"
+          transform="translateX(-50%)"
           bottom="2vh"
         >
           Continue
