@@ -14,7 +14,7 @@ import CustomSlider from "./components/commons/GradientSlider";
 function App() {
   return (
     <ChakraProvider>
-      <Container maxW="500px">
+      <Container maxW="400px">
         <Flex
           padding="20px"
           justifyContent="space-between"
@@ -54,7 +54,7 @@ function App() {
           <Divider mt="25px" />
 
           {/* slider */}
-          <CustomSlider />
+          <CustomSlider mt="20px" />
           <Flex justifyContent="space-between" fontWeight={700}>
             <Text>£11,000</Text>
             <Text>£14,500</Text>
