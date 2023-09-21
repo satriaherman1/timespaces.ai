@@ -71,23 +71,27 @@ function App() {
           </Flex>
         </Box>
 
-        <Box
-          padding="12px 20px"
-          borderRadius="10px"
-          fontFamily="Space Grotesk"
-          fontWeight={700}
-          as="button"
-          bg="black"
-          color="white"
-          textTransform="uppercase"
-          w="calc(100% - 20px)"
+        <Container
+          maxW="400px"
           pos="fixed"
           left="50%"
           transform="translateX(-50%)"
-          bottom="2vh"
+          bottom="4vh"
         >
-          Continue
-        </Box>
+          <Box
+            padding="12px 20px"
+            borderRadius="10px"
+            fontFamily="Space Grotesk"
+            fontWeight={700}
+            as="button"
+            bg="black"
+            color="white"
+            textTransform="uppercase"
+            w="100%"
+          >
+            Continue
+          </Box>
+        </Container>
       </Container>
     </ChakraProvider>
   );
