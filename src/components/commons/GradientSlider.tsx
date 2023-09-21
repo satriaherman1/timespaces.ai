@@ -37,7 +37,7 @@ const CustomSlider = (props: SliderProps) => {
       case exactValue > (difference * 50) / 100 &&
         exactValue <= (difference * 75) / 100:
         setTooltipBg("linear-gradient(90deg, #F3EC4C, #38DE78)");
-        setArrowBg("#56ed05");
+        setArrowBg("#86e314");
 
         break;
       case exactValue > (difference * 75) / 100:
@@ -54,10 +54,7 @@ const CustomSlider = (props: SliderProps) => {
       max={14500}
       onChange={handleSliderChange}
       {...props}
-      onFocus={() => {
-        setIsOpenTooltip(true);
-        console.log("focus");
-      }}
+      onFocus={() => setIsOpenTooltip(true)}
       onBlur={() => setIsOpenTooltip(false)}
     >
       <SliderTrack

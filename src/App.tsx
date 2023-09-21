@@ -15,12 +15,12 @@ function App() {
   return (
     <ChakraProvider>
       <Container
+        maxW="2000px"
         display="flex"
-        maxW="400px"
         padding="20px"
         justifyContent="space-between"
         alignItems="center"
-        w="100%"
+        w="100vw"
         background="white"
         boxShadow="0px 6px 16px 0px rgba(79, 79, 79, 0.10)"
       >
