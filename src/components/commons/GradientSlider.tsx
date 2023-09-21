@@ -27,7 +27,7 @@ const CustomSlider = (props: SliderProps) => {
     switch (true) {
       case exactValue > 0 && exactValue <= (difference * 25) / 100:
         setTooltipBg("linear-gradient(90deg, #F34848, rgba(255, 230, 0, 1))");
-        setArrowBg("#F34848");
+        setArrowBg("#f36748");
         break;
       case exactValue > (difference * 25) / 100 &&
         exactValue <= (difference * 50) / 100:
@@ -84,8 +84,7 @@ const CustomSlider = (props: SliderProps) => {
           boxSize={8}
           padding={0}
           position="relative"
-          border="none"
-          outline="none"
+          className="slider-handle"
         >
           {isOpenTooltip && (
             <Box
