@@ -48,7 +48,7 @@ function App() {
               <Text fontWeight="600">
                 Rolex Daytona Stainless Steel Ref #116520
               </Text>
-              <Text fontWeight="600" color="#F34848">
+              <Text fontWeight="600" color="#F34848" mt="9px">
                 $17,563
               </Text>
             </Box>
